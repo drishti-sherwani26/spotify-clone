@@ -12,8 +12,8 @@ A responsive Spotify Clone built using HTML and CSS.
 
 ## Tech Stack
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 
 ## Project Purpose
 
