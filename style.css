@@ -1,0 +1,327 @@
+* {
+    font-family: 'Montserrat', 'Times New Roman', 'Times', serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #121212;
+    width: 300px;
+    border-radius: 1rem;
+
+}
+
+.main-content {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    margin-bottom: 72px;
+    padding-bottom: 5rem;
+}
+
+.music-player {
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.21);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    height: 100px;
+    justify-content: center;
+    padding: 0.75rem 1rem;
+}
+
+.nav-option {
+    line-height: 2.5rem;
+    opacity: 0.75;
+}
+
+.nav-option:hover {
+
+    opacity: 1;
+}
+
+.nav-option i {
+    font-size: 1.25rem;
+    padding: 0.75rem;
+}
+
+.nav-option a {
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.library {
+    background-color: rgba(0, 0, 0, 0.21);
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    height: 100%;
+}
+
+.library i {
+    font-size: 1.25rem;
+}
+
+.library a {
+    font-size: 1rem;
+}
+
+.lib-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 1.25rem;
+    opacity: 0.75;
+    margin-right: 1.5rem;
+    display: flex;
+}
+
+.icon:hover {
+    opacity: 1;
+}
+
+.icon i {
+    margin-right: 0.5rem;
+}
+
+.icon i:hover {
+    opacity: 1;
+}
+
+.box1 {
+    background-color: rgba(128, 128, 128, 0.169);
+    height: 150px;
+    border-radius: 0.75rem;
+    margin: 1rem;
+}
+
+.boxp1 {
+    padding: 1rem 1.25rem;
+    font-weight: bold;
+}
+
+.boxp2 {
+    padding: 0.25rem 1.25rem;
+
+}
+
+.box1 button {
+    padding: 0.75rem 0.75rem;
+    ;
+    color: black;
+    border-radius: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    width: 9rem;
+}
+
+.box2 {
+    background-color: rgba(128, 128, 128, 0.169);
+    border-radius: 0.75rem;
+    margin: 1rem;
+    height: 200px;
+}
+
+.box2 button {
+    padding: 0.75rem 0.75rem;
+    ;
+    color: black;
+    border-radius: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    width: 9rem;
+}
+
+.sticky-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+
+}
+
+.login i {
+    background-color: black;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin-right: 2.5rem;
+}
+
+.badge {
+    padding: 0.75rem 0.5rem;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.badge1 {
+    padding: 0.75rem 0.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 1.5rem;
+}
+
+@media (max-width:1000px) {
+    .badge {
+        display: none;
+    }
+
+    .icon2 {
+        display: none;
+    }
+}
+
+.card1 img {
+    height: 180px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+
+.card1 {
+    background-color: rgba(83, 82, 82, 0.301);
+    width: 200px;
+    padding: 1rem;
+
+}
+
+.cards1 {
+    margin: 1rem 2.5rem;
+}
+
+.class-info {
+    padding: 1rem 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.card1:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    cursor: pointer;
+}
+
+.card1p {
+    font-weight: bold;
+    padding: 0.5rem 0.75rem;
+}
+
+.card1p2 {
+    padding: 0.5rem 0.5rem;
+}
+
+.cards2 {
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+    margin: 1rem 2.5rem;
+    gap: 1.5rem;
+}
+
+.cards3 {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 2.5rem;
+}
+.music-player{
+    display: flex;
+}
+.song{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.song img{
+    width: 4em;
+    height: 4rem;
+    display: block;
+   margin-bottom: 0.5rem;
+   margin-top: 0.5rem;
+   margin-left: 1rem;
+}
+.p1{
+    font-size: 1.2rem;
+    padding: 0.25rem 0.5rem;
+}
+.p1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+} 
+.p2{
+     font-size: 0.85rem;
+}
+.song-detail i{
+    border: 2px solid rgb(30, 58, 151);
+    border-radius: 50%;
+
+}
+.player{
+    display: flex;
+    flex-direction: column;
+     margin: auto;
+   margin-top: 0.75rem;
+   
+}
+.player-img{
+    display: flex;
+     gap: 1.5rem;
+     margin-left: 3rem;
+    
+
+}
+.player img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.playback-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.playback-bar input{
+    width: 300px;
+    accent-color: white;
+}
